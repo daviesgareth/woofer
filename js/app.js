@@ -9,11 +9,6 @@ angular.module('WooferApp', [
 			controller : 'IndexCtrl',
 			controllerAs : 'index'
 		})
-		// .when('/inbox/email/:id', {
-		// 	templateUrl : 'views/email.html',
-		// 	controller : 'EmailCtrl',
-		// 	controllerAs : 'email'
-		// })
 		.otherwise({
 			redirectTo : '/home'
 		});

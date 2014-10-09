@@ -21,18 +21,6 @@ angular.module('WooferApp')
 					IndexFactory.addQuickOffer();
 				}
 
-				// this.goToMessage = function(id){
-				// 	InboxFactory.goToMessage(id);
-				// };
-
-				// this.deleteMessage = function(id, index){
-				// 	InboxFactory.deleteMessage(id, index);
-				// };
-
-				// InboxFactory.getMessages().then(angular.bind(this, function then(){
-				// 	this.messages = InboxFactory.messages;
-				// }) );
-
 			},
 
 			link: function(scope, element, attrs, ctrl){
