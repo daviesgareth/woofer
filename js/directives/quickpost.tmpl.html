@@ -1,0 +1,47 @@
+<div class="inbox" ng-cloak>
+
+	<div id="quick-offer">
+
+
+	<h3>Quick Offer:</h3>
+
+		<p id="woofer-do-details">
+			I want <input type="text" id="i-want-to" ng-model="iWantTo" placeholder="to play tennis" ng-model="woofer" /> <input type="text" id="when" ng-model="when" placeholder="tonight" /> in <input type="text" id="location" ng-model="location" placeholder="pimlico" /> with someone who <input type="text" id="someone-who-is" ng-model="someoneWhoIs" placeholder="is not very good"/> because <input type="text" id="because" ng-model="because" placeholder="I'm trying to learn" />
+		</p>
+
+		<button type="submit" ng-click="quickpost.addQuickOffer()" class="btn btn-success">Make offer</button>
+
+	</div>
+
+
+	<!-- <div class="inbox__count">
+		You have {{ inbox.messages.length && inbox.messages.length || 'no' }} messages
+	</div>
+	<div ng-hide="!inbox.messages.length">
+		<input type="text" class="inbox__search"
+			ng-model="inbox.search"
+			placeholder="Search by 'from', e.g. TicketMaster">
+	</div>
+	<ul class="inbox__list">
+		<li ng-show="!inbox.messages.length">
+			No messages! Try sending one to a friend.
+		</li>
+		<li ng-repeat="message in inbox.messages | filter:{ from: inbox.search }">
+			<div class="inbox__list-info">
+				<p class="inbox__list-from"> from: {{ message.from }} </p>
+				<p class="inbox__list-date"> {{ message.date | date: 'dd/MM/yyyy' }} </p>
+				<p class="inbox__list-subject"> {{ message.subject }} </p>
+			</div>
+			<div class="inbox__list-actions">
+				<a href="#" ng-click="inbox.goToMessage(message.id);">
+					Read
+				</a>
+				<a href="" ng-click="inbox.deleteMessage(id, $index);">
+					Delete
+				</a>
+			</div>
+		</li>
+	</ul> -->
+
+
+</div>

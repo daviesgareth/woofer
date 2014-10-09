@@ -1,0 +1,118 @@
+/* Colours */
+/* Typography */
+/* line 11, ../sass/woofer/_variables.scss */
+.small {
+  font-size: 0.8em;
+}
+
+/* line 1, ../sass/woofer/_base.scss */
+body {
+  padding-top: 70px;
+  color: #333333;
+}
+
+/* line 6, ../sass/woofer/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 11, ../sass/woofer/_base.scss */
+a {
+  color: #4888fd;
+}
+
+/* line 3, ../sass/woofer/_header.scss */
+header .navbar .navbar-nav {
+  margin-left: 20px;
+}
+/* line 6, ../sass/woofer/_header.scss */
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav a {
+  color: #4888fd;
+}
+
+/* line 1, ../sass/woofer/_main.scss */
+main {
+  margin: 0 0 20px;
+}
+
+/* line 2, ../sass/woofer/_make-offer.scss */
+#woofer-do-details input {
+  padding: 15px 10px;
+  border: 0;
+  color: #4888fd;
+  background: rgba(240, 240, 240, 0.5);
+}
+
+/* line 11, ../sass/woofer/_make-offer.scss */
+#quick-offer,
+#recent-offers {
+  margin: 50px 0;
+  padding: 1px 20px 20px;
+  background: rgba(72, 136, 253, 0.1);
+}
+
+/* line 17, ../sass/woofer/_make-offer.scss */
+.offer-row {
+  margin-top: 10px;
+}
+
+/* line 1, ../sass/woofer/_buttons.scss */
+.btn-offer-action {
+  margin: 10px 10px 10px 0;
+  font-size: 0.8em;
+}
+
+/* line 1, ../sass/woofer/_chat.scss */
+input[type=text] {
+  color: #424547;
+  border: 1px solid #c2c2c2;
+  background-color: white;
+}
+
+/* line 7, ../sass/woofer/_chat.scss */
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+/* Chat */
+/* line 14, ../sass/woofer/_chat.scss */
+#messageContainer {
+  overflow-y: scroll;
+  border: 8px solid #424547;
+  background-color: white;
+  height: 250px;
+}
+
+/* line 21, ../sass/woofer/_chat.scss */
+#messagesDiv {
+  overflow: none;
+  width: 445px;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* line 29, ../sass/woofer/_chat.scss */
+#nameInput {
+  width: 26%;
+}
+
+/* line 33, ../sass/woofer/_chat.scss */
+#messageInput {
+  width: 68%;
+}
+
+/* line 1, ../sass/woofer/_footer.scss */
+footer {
+  padding: 20px 0;
+  background: #4888fd;
+  color: #f9f9f9;
+}
+/* line 5, ../sass/woofer/_footer.scss */
+footer p {
+  margin-bottom: 0;
+}

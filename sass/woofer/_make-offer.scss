@@ -1,0 +1,19 @@
+#woofer-do-details {
+	input {
+		padding: 15px 10px;
+		border: 0;
+		color: $blue;
+		background: rgba($light-grey, 0.5);
+	}
+}
+
+#quick-offer,
+#recent-offers {
+	margin: 50px 0;
+	padding: 1px 20px 20px;
+	background: rgba($blue, 0.1);
+}
+
+.offer-row {
+	margin-top: 10px;
+}

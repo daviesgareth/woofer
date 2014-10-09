@@ -1,0 +1,11 @@
+header {
+	.navbar {
+		.navbar-nav {
+			margin-left: 20px;
+			& > .active > a,
+			a {
+				color: $blue;
+			}
+		}
+	}
+}
